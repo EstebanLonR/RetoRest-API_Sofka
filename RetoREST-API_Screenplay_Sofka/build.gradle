@@ -1,0 +1,33 @@
+plugins {
+    id 'java'
+    id 'java-library'
+    id 'idea'
+}
+
+group 'com.co.sofka'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'net.serenity-bdd:serenity-core:3.2.1'
+    implementation 'net.serenity-bdd:serenity-junit:3.2.1'
+    implementation 'net.serenity-bdd:serenity-screenplay:3.2.1'
+    implementation 'net.serenity-bdd:serenity-cucumber:3.2.1'
+    implementation 'net.serenity-bdd:serenity-rest-assured:3.2.1'
+    implementation 'net.serenity-bdd:serenity-screenplay-rest:3.2.1'
+    implementation 'log4j:log4j:1.2.17'
+    testImplementation 'org.hamcrest:hamcrest-all:1.3'
+    testImplementation group: 'junit', name: 'junit', version: '4.12'
+    testImplementation group: 'org.hamcrest', name: 'hamcrest-all', version: '1.3'
+    implementation group: 'com.mashape.unirest', name: 'unirest-java', version: '1.4.9'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
+}
+
+gradle.startParameter.continueOnFailure = true

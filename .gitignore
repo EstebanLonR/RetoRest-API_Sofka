@@ -1,0 +1,10 @@
+# Gradle
+*/.gradle
+
+#Intellij
+*/.idea/
+
+#Java
+*/build/
+*/out/
+*/history/
