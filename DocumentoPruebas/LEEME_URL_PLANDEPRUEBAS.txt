@@ -1,4 +1,4 @@
 El siguiente Link lo redirigira a una pagina de Notion.so, la cual contiene el plan de pruebas realizado para la automatizacion Web;
 
-https://fuzzy-gruyere-5cb.notion.site/Plan-De-Pruebas-Automatizadas-AutomationPractice-2606d6ae4a044d66b0348fadfe139c52
+https://fuzzy-gruyere-5cb.notion.site/Plan-De-Pruebas-Automatizadas-Reqres-Y-PokeApi-9210358ee56a43ed971d612260488590
 
